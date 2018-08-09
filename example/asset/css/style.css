@@ -22,13 +22,40 @@ header{
 	max-width:100%;
 	height:auto;
 }
-section{
+.img-med{
+	max-width:50%;
+}
+picture{flex:none; width:100%; display:block; text-align:center;}
+.principal{
 	padding:0 15px;
 	background: rgb(109,204,170);
+	
+}
+.info{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.social-network{
+	display:flex;
+}
+.social-network a{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius: 50%;
+	width:1.8rem;
+	height:1.8rem;
+	color:rgb(109,204,170);
+	background:white;
+	margin:0.2rem;
 }
 nav{
 	display:flex;
 }
 nav a{
 padding:10px 15px;
+}
+footer{
+	background:#e6e6e6;
 }
